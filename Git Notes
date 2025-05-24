@@ -233,6 +233,13 @@ HISTORY:
 
 ======================================================================
 DAY-03: (BRANCHES, GITHUB MERGE, PULL, PUSH, FETCH, STATSH, CHERRY-PICK, RESTORE, REVERET RENAMEING)
+git add .
+git commit -m "Initial commit"
+git commit --allow-empty -m "Initial commit"
+touch file1.txt
+echo "hello" > file1.txt
+git stash -u     # ✅ This will now work
+
 
  2  cd swiggy/
     3  git branch
